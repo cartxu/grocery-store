@@ -3,7 +3,7 @@ let total = 0;
 const products = document.querySelectorAll('.fruit');
 const parents = document.querySelectorAll('.product');
 const totalPrice = document.querySelector('#total');
-totalPrice.innerHTML = total ;
+totalPrice.innerHTML = total + '€';
 
 
 document.addEventListener("drag", function (event) {}, false);
